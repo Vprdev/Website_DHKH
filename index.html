@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" href="img/LogoSchool.png">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+	<title>TRƯỜNG ĐẠI HỌC KHOA HỌC - ĐẠI HỌC HUẾ</title>
+</head>
+<body>
+	<!-- Header -->
+	<div id="header">
+		<div class="header_left">
+			<h1>TRƯỜNG ĐẠI HỌC KHOA HỌC - ĐẠI HỌC HUẾ</h1>
+		</div>
+		<div class="header_right">Thứ 4, ngày 8 tháng 4 năm 2020</div>
+	</div>
+	<div id="banner">
+		<div class="banner_navbar ntn">
+			<a href="">
+				<img class="logo" src="img/logo.png" alt="#">
+			</a>
+		</div>
+		<div id="showMenuRight" class="banner_navbar" onclick="ShowRight()">
+			<a>
+				Hỗ trợ hoạt động học tập
+				<i class="banner_icons fas fa-caret-down"></i>
+			</a>
+
+			<!-- List menu -->
+			
+			<ul class="list_menu left" id="listIdRight">
+				<li class="list_none list">Kế hoạch học tập</li>
+				<a href="layout_Index/index_registration.html"><li class="list">Đăng ký học tập</li></a>
+				<!-- <li class="list"><a href="layout_Index/index_registration.html" >Đăng ký học tập</a></li> -->
+				<!-- <li class="list"><a href="#" >Lớp học phần đã đăng ký</a></li> -->
+				<a href="../layout_Index/index_registered.html"><li class="list">Lớp học phần đã đăng ký</li></a>
+				<!-- <li class="list"><a href="#" >Lịch trình học tập</a></li> -->
+				<a href="../layout_Index/index_schedule.html"><li class="list">Lịch trình học tập</li></a>
+				<li class="list"><a href="#" >Lịch thi kết thúc học phần</a></li>
+				<li class="list_none list">Hỗ trợ - Tra cứu thông tin</li>
+				<li class="list"><a href="#" >Chương trình đào tạo</a></li>
+				<li class="list_none list">Số liệu - Tổng hợp</li>
+				<li class="list"><a href="#" >Lịch sử quá trình học tập</a></li>
+				<li class="list"><a href="#" >Kết quả học tập</a></li>
+				<li class="list"><a href="#" >Kết quả rèn luyện</a></li>
+				<li class="list_none list">Đảm bảo chất lượng giáo dục</li>
+				<li class="list ntn col"><a href="#" >Khảo sát hoạt động giảng dạy</a></li>
+			</ul>
+		
+		</div>
+		<div id="showMenuLeft" class="banner_navbar" onclick="ShowLeft()">
+			<a>
+				Học phí - Lệ phí
+				<i class="banner_icons fas fa-caret-down"></i>
+			</a>
+			<!-- List menu -->
+			
+			<ul class="list_menu right" id="listIdLeft">
+				<li class="list"><a href="#">Nộp học phí trực tuyến</a></li>
+				<li class="list col"><a href="#">Tra cứu lịch sử nộp học phí</a></li>
+			</ul>
+			
+		</div>
+	</div>
+
+	<!-- Body -->
+	<div id="container">
+		<div class="head">
+			<ul class="head-ul">
+				<li class="head_banner"><a href="#" title="Nhấp vào đây để thay đổi ngành học và học kỳ tác nghiệp">
+					<i class="head_icon fas fa-graduation-cap"></i>
+					Khoá 41 (2017-2021)
+				</a></li>
+				<li class="head_banner"><a href="#" title="Nhấp vào đây để thay đổi ngành học và học kỳ tác nghiệp">
+					<i class="head_icon fas fa-book"></i>
+					CÔNG NGHỆ THÔNG TIN</a></li>
+				<li class="head_banner"><a href="#" title="Nhấp vào đây để thay đổi ngành học và học kỳ tác nghiệp">
+					<i class="head_icon fas fa-calendar-alt"></i>
+					Học kỳ: 2, năm học: 2019-2020</a></li>
+			</ul>
+		</div>
+
+		<!-- side bar -->
+		<div class="body_left">
+			<div class="body_left-function">
+				<ul>
+					<li class="body_left-function-element"><h5>Lê Xuân Việt</h5></li>
+					<li class="body_left-function-element  space_top">
+						<img src="img/icons/people.png" alt="">
+						<a class="menu-hover" href="#">Lý lịch cá nhân</a>
+					</li>
+					<li class="body_left-function-element">
+						<img src="img/icons/key.png" alt="">
+						<a class="menu-hover" href="#">Đổi mật khẩu</a>
+					</li>
+					<li class="body_left-function-element space_bottom">
+						<img src="img/icons/logout.png" alt="">
+						<a class="menu-hover" href="#">Đăng xuất</a>
+					</li>
+					<li class="body_left-function-element"><h5>CÁC CHỨC NĂNG CHUNG</h5></li>
+					<li class="body_left-function-element  space_top">
+						<img src="img/icons/book.png" alt="">
+						<a class="menu-hover" href="#">Tin tức - Thông báo</a>
+					</li>
+					<li class="body_left-function-element">
+						<img src="img/icons/calendar.png" alt="">
+						<a class="menu-hover" href="#">Thời khoá biểu học tập</a>
+					</li>
+					<li class="body_left-function-element">
+						<img src="img/icons/message.png" alt="">
+						<a class="menu-hover" href="#">Tin nhắn</a>
+					</li>
+					<li class="body_left-function-element space_bottom">
+						<img src="img/icons/Mail_Icon.png" alt="">
+						<a class="menu-hover" href="#">Thư điện tử</a>
+						<img src="img/icons/new.gif" alt="">
+					</li>
+				</ul>
+			</div>
+			<div class="body_left-notify">
+				<ul>
+					<li class="body_left-notify-element"><h5>TIN TỨC - THÔNG BÁO</h5></li>
+					<li class="body_left-notify-element active">
+						<i class="icon_right fas fa-angle-double-right"></i>							
+						<a class="menu-hover" href="#">Thông báo về việc tiếp tục tổ chức đào tạo theo hình thức trực tuyến
+							<small>(24/03/2020)</small>
+						</a>
+					</li>
+					<li class="body_left-notify-element">
+						<i class="icon_right fas fa-angle-double-right"></i>
+						<a class="menu-hover" href="#">Thông báo tiếp tục giảng dạy và học tập trực tuyến
+							<small>(23/03/2020)</small>
+						</a>
+					</li>
+					<li class="body_left-notify-element">
+						<i class="icon_right fas fa-angle-double-right"></i>	
+						<a class="menu-hover" href="#">Thông báo về việc tổ chức đào tạo theo hình thức trực tuyến
+							<small>(17/03/2020)</small>
+						</a>
+					</li>
+					<li class="body_left-notify-element">
+						<i class="icon_right fas fa-angle-double-right"></i>
+						<a class="menu-hover" href="#">Thông báo về việc quản lý thông tin sinh viên NGOẠI TỈNH
+							<small>(09/03/2020)</small>
+						</a>
+					</li>
+					<li class="body_left-notify-element">
+						<i class="icon_right fas fa-angle-double-right"></i>
+						<a class="menu-hover" href="#">Thông báo về việc đăng ký khoá học đào tạo khởi nghiệp online của Vintech City
+							<small>(06/03/2020)</small>
+						</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="body_right">
+			<div class="body_right-head">
+				<h2>THÔNG BÁO</h2>
+			</div>
+			<div class="body_right_content">
+				<div class="notify_content">
+					<div class="notify_content-ntn">
+						<b>Lưu ý:</b>
+						Để chuẩn bị cho việc triển khai học trực tuyến, Nhà trường lưu ý sinh viên về việc sử dụng hộp thư điện tử như sau:
+						<ul>
+							<li>Mỗi sinh viên được cấp một hộp thư (email) có dạng: <b>mã_sinh_viên@husc.edu.vn</b></li>
+							<li>Sinh viên đăng nhập vào hộp thư với tên đăng nhập là <b>mã_sinh_viên@husc.edu.vn,</b>
+								mật khẩu truy cập ban đầu là <b>mật khẩu mà sinh viên hiện đang sử dụng để truy cập trang tính chỉ.</b>
+							</li>
+							<li class="notify_content-ntn_ele">Sinh viên chú ý đảm bảo an toàn cho tài khoản thư cá nhân.</li>
+						</ul>
+						<p>Xem tài liệu hướng dẫn sử dụng Google Classroom và Google Meet <a href="#">
+							<b class="element-active_hover">Tại đây</b></a></p>
+						
+						<a class="notify_content-ntn_box" href="#">
+							<i class="fas fa-envelope"></i>
+							Nhấp vào đây để truy cập hộp thư
+						</a>
+					</div>
+				</div>
+
+				<div class="notify_content-content">
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo về việc cập nhật xử lý đăng ký học phần trể hạn học kỳ 2, năm học 2019-2020 cho sinh viên từ khoá K39 trở về trước</a>
+							<br>
+							<small>[15/04/2020 17:17]</small>
+						</p>
+						<p>Thời gian vừa qua, thực hiện thông báo của Nhà trường về việc cho sinh viên nghỉ học để phòng chống dịch bệnh Covid-19, một số sinh viên chưa cập nhật được kết quả đăng ký học phần trể hạn học kỳ 2, năm học 2019-2020 vì vậy Phòng Đào Tạo Đại học và Công tác sinh viên cập nhật kết quả đăng ký trể hạn của sinh viên (có danh sách kèm theo) để sinh viên biết và thực hiện. Mọi thắc mắc về việc đăng ký trể hạn, sinh viên liên hệ trực tiếp chuyên viên Tôn Thất Tuấn (Số điện thoại: 0976.278.233 hoặc email: thattuan1311@gmail.com)</p>
+					</div>
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo v/v đăng ký học phần Ngoại ngữ không chuyên học kỳ 2 và học kỳ 3 (đợt 2) năm học 2019-2020, hình thức học tập trực tuyến tại trường Đại học Ngoại ngữ, Đại học Huế</a>
+							<br>
+							<small>[15/04/2020 16:16]</small>
+						</p>
+						<p>Trong thời gian từ 01/4/2020 đến hết ngày 12/4/2020, Trường Đại học Ngoại ngữ, Đại học Huế đã thực hiện khảo sát về việc dạy và học Ngoại ngữ không chuyên trực tuyến áp dụng trong học kỳ 2, năm học 2019-2020 để đáp ứng tình hình dịch bệnh Covid-19. Nay, Trường thông báo kế hoạch và hướng dẫn đăng ký học phần Ngoại ngữ không chuyên học kỳ 2, năm học 2019-2020, hình thức học tập trực tuyến, cụ thể như sau:</p>
+					</div>
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo về việc tiếp tục tổ chức đào tạo theo hình thức trực tuyến</a>
+							<br>
+							<small>[24/03/2020 10:16]</small>
+						</p>
+						<p>Căn cứ vào kết quả tích cực của việc tổ chức dạy thí điểm đào tạo trực tuyến, để đảm bảo kế hoạch đào tạo đại học của học kỳ 2, năm học 2019-2020, Nhà trường thông báo cho toàn thể sinh viên biết việc đào tạo theo hình thức trực tuyến sẽ tiếp tục tổ chức từ ngày ra thông báo cho đến khi có điều chỉnh mới. Chi tiết cụ thể sinh viên xem tại nội dung đính kèm sau:</p>
+					</div>
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo tiếp tục giảng dạy và học tập trực tuyến</a>
+							<br>
+							<small>[23/03/2020 07:50]</small>
+						</p>
+						<p>Trước diễn biến phức tạp của dịch Covid-19, Nhà trường thông báo đến toàn thể sinh viên về việc giảng dạy và học tập trực tuyến như sau:</p>
+					</div>
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo về việc tổ chức đào tạo theo hình thức trực tuyến</a>
+							<br>
+							<small>[17/03/2020 16:25]</small>
+						</p>
+						<p>Trước diễn biến phức tạp của dịch Covid-19, để đảm bảo kế hoạch đào tạo đại học của học kỳ 2, năm học 2019-2020, Trường Đại học Khoa học thông báo đến toàn thể sinh viên chủ trương đào tạo theo hình thức trực tuyến như sau:</p>
+					</div>
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo về việc thay đổi thời gian thực hiện bổ sung hộ nghèo, cận nghèo năm 2020 và các đối tượng miễn, giảm, trợ cấp xã hội</a>
+							<br>
+							<small>[09/03/2020 10:02]</small>
+						</p>
+						<p>Sinh viên tiếp tục triển khai việc bổ sung hộ nghèo, cận nghèo năm 2020 và các đối tượng miễn, giảm, trợ cấp xã hội.</p>
+					</div>
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo về việc quản lý thông tin sinh viên NGOẠI TỈNH</a>
+							<br>
+							<small>[09/03/2020 08:49]</small>
+						</p>
+						<p>Nhà trường thông báo đến tất cả sinh viên ngoại tỉnh về việc khảo sát tình hình di chuyển, cư trú để có cơ sở hỗ trợ sinh viên cũng như nắm rõ các thông tin liên quan phục vụ công tác phòng, chống dịch COVID-19.</p>
+					</div>
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo về việc đăng ký khóa học đào tạo khởi nghiệp online của Vintech City</a>
+							<br>
+							<small>[06/03/2020 09:04]</small>
+						</p>
+						<p>Phòng Công tác HSSV thông báo đến những sinh viên có nhu cầu, đam mê khởi nghiệp đăng ký để được lựa chọn tham gia.</p>
+					</div>
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo về việc nhắc nhở sinh viên thực hiện kê khai dữ liệu ngoại trú (thông tin dịch tễ)</a>
+							<br>
+							<small>[04/03/2020 15:07]</small>
+						</p>
+						<p>Nhà trường thông báo đến sinh viên chưa kê khai dữ liệu ngoại trú (thông tin dịch tễ) khẩn trương thực hiện theo quy định</p>
+					</div>
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo Kết quả rà soát điều kiện xét tốt nghiệp đợt 1, năm 2020, loại hình đào tạo Chính quy</a>
+							<br>
+							<small>[04/03/2020 10:14]</small>
+						</p>
+						<p>Phòng Đào tạo Đại học thông báo cho các Khoa và sinh viên biết kết quả rà soát điều kiện tốt nghiệp chuyên môn và các chứng chỉ điều kiện GDTC, GDQP, Ngoại ngữ không chuyên, bằng Tốt nghiệp THPT như sau:</p>
+					</div>
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo v/v mở bổ sung lớp học phần, lần 1 học kỳ II năm học 2019-2020</a>
+							<br>
+							<small>[04/03/2020 08:54]</small>
+						</p>
+						<p>Chi tiết xem tại nội dung đính kèm</p>
+					</div>
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo về việc chuẩn bị cho sinh viên trở lại học tập từ ngày 02/3/2020</a>
+							<br>
+							<small>[01/03/2020 08:32]</small>
+						</p>
+						<p>Thực hiện Công văn số 239/ĐHH-VP ngày 28/02/2020 của Giám đốc Đại học Huế về việc chuẩn bị cho sinh viên trở lại học tập, Trường Đại học Khoa học đã có Công văn số 168/ĐHKH-TCHC ngày 28/02/2020 về việc cho sinh viên đi học trở lại.</p>
+					</div>
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo về việc cập nhật dữ liệu ngoại trú phục vụ cho công tác phòng, chống dịch Covid-19</a>
+							<br>
+							<small>[28/02/2020 16:02]</small>
+						</p>
+						<p>Nhà trường thông báo đến toàn thể sinh viên về việc thực hiện cập nhật dữ liệu ngoại trú phục vụ cho công tác phòng, chống dịch Covid-19.</p>
+					</div>
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo tuyển sinh viên tham gia Cuộc thi "Người mẫu sinh viên Việt Nam 2020"</a>
+							<br>
+							<small>[24/02/2020 15:21]</small>
+						</p>
+						<p>Nhà trường thông báo đến các sinh viên đủ điều kiện để đăng ký tham gia</p>
+					</div>
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo v/v tiếp tục cho sinh viên nghỉ học</a>
+							<br>
+							<small>[24/02/2020 09:18]</small>
+						</p>
+						<p>Thực hiện công văn số 179/ĐHH-VP, ngày 17 tháng 02 năm 2020 của Giám đốc Đại học Huế về việc tiếp tục triển khai phòng, chống dịch bệnh Covid-19, Nhà trường thông báo cho sinh viên tiếp tục nghỉ học đến hết tháng 02 năm 2020 và các vấn đề liên quan đến việc xử lý học phần và xét tốt nghiệp đợt 1 năm 2020 cho sinh viên sẽ được tính từ ngày 02/3/2020, Sinh viên thực tập cuối khóa theo kế hoạch của đơn vị thực tập. Chi tiết thông báo xem tại nội dung đính kèm sau:</p>
+					</div>
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo học các học phần Giáo dục thể chất vào thứ 7 và Chủ nhật</a>
+							<br>
+							<small>[20/02/2020 07:44]</small>
+						</p>
+						<p>Nhằm tạo điều kiện cho sinh viên của các trường đại học thành viên của Đại học Huế đang còn thiếu các học phần Giáo dục thể chất, Khoa Giáo dục thể chất - Đại học Huế tổ chức các lớp học riêng vào ngày thứ 7 và Chủ nhật, cụ thể như sau:</p>
+					</div>
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo tiếp tục cho sinh viên nghỉ học để phòng, chống dịch Covid-19</a>
+							<br>
+							<small>[14/02/2020 14:14]</small>
+						</p>
+						<p>Ngày 14/02/2020, Giám đốc Đại học Huế tại Công văn số 158/ĐHH-VP về việc tiếp tục cho sinh viên nghỉ học đến hết ngày 23/02/2020 để phòng, chống dịch Covid-19.</p>
+					</div>
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo về việc tuyển chọn sinh viên tham gia Giải bóng đá sinh viên Hội Thể thao đại học và Chuyên nghiệp Huế năm 2020</a>
+							<br>
+							<small>[11/02/2020 09:43]</small>
+						</p>
+						<p>Hội thể thao nhà trường thông báo đến toàn thể nam sinh viên có sở thích, năng khiếu về bóng đá đăng ký tham gia</p>
+					</div>
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo về việc tạm hoãn chương trình giới thiệu cơ hội việc làm của Tập đoàn Takatsu (15h30 ngày 11/02/2020)</a>
+							<br>
+							<small>[07/02/2020 09:08]</small>
+						</p>
+						<p>Phòng Công tác HSSV thông báo đến sinh viên được điều động tham gia chương trình giới thiệu cơ hội việc làm của Tập đoàn Takatsu được biết.</p>
+					</div>
+					<div class="notify_content-content_element">
+						<p>
+							<a class="notify_content-content_element_title" href="#">Thông báo v/v cho sinh viên nghỉ học</a>
+							<br>
+							<small>[06/02/2020 16:18]</small>
+						</p>
+						<p>Thực hiện công văn số 120/ĐHH-VP ngày 06 tháng 02 năm 2020 của Đại học Huế về việc phòng, chống dịch bệnh viêm đường hô hấp cấp do virus Corona, trước diễn biến phức tạp của dịch bệnh, Nhà trường thông báo cho toàn thể sinh viên các lớp được nghỉ học từ ngày ra thông báo đến 16 tháng 02 năm 2020. Các vấn đề liên quan đến việc xử lý học phần và xét tốt nghiệp đợt 1 năm 2020 cho sinh viên sẽ được tăng thêm 01 tuần, tính từ ngày 17/02/2020, Sinh viên thực tập cuối khóa theo kế hoạch của đơn vị thực tập. Chi tiết thông báo xem tại nội dung đính kèm sau:
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="footer_content">
+			<p>Trường Đại học Khoa Học - Đại học Huế</p>
+			<p>Địa chỉ: 77 Nguyễn Huệ, Thành phố Huế, Thừa Thiên Huế, Việt Nam</p>
+			<p>Điện thoại: (+84) 0234.3823290 - Fax: (+84) 0234.3824901</p>
+			<p>Website: <a href="http://www.husc.edu.vn">http://www.husc.edu.vn</a></p>
+			<small>© Trần Nguyên Phong, Khoa Công Nghệ Thông Tin</small>
+		</div>
+	</footer>
+</body>
+<script type="text/javascript" src="javascript/packed.js"></script>
+</html>

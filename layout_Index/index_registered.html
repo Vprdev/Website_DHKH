@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" href="../img/LogoSchool.png">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../fonts/fontawesome/css/all.min.css">
+	<title>TRƯỜNG ĐẠI HỌC KHOA HỌC - ĐẠI HỌC HUẾ</title>
+</head>
+<body>
+	<!-- Header -->
+	<div id="header">
+		<div class="header_left">
+			<h1>TRƯỜNG ĐẠI HỌC KHOA HỌC - ĐẠI HỌC HUẾ</h1>
+		</div>
+		<div class="header_right">Thứ 4, ngày 8 tháng 4 năm 2020</div>
+	</div>
+	<div id="banner">
+		<div class="banner_navbar ntn">
+			<a href="../index.html">
+				<img class="logo" src="../img/logo.png" alt="#">
+			</a>
+		</div>
+		<div id="showMenuRight" class="banner_navbar" onclick="ShowRight()">
+			<a>
+				Hỗ trợ hoạt động học tập
+				<i class="banner_icons fas fa-caret-down"></i>
+			</a>
+
+			<!-- List menu -->
+			
+			<ul class="list_menu left" id="listIdRight">
+				<li class="list_none list">Kế hoạch học tập</li>
+				<a href="/layout_Index/index_registration.html"><li class="list">Đăng ký học tập</li></a>
+                <!-- <li class="list"><a href="/layout_Index/index_registration.html" >Đăng ký học tập</a></li> -->
+                <a href="/layout_Index/index_registered.html"><li class="list">Lớp học phần đã đăng ký</li></a>
+				<!-- <li class="list"><a href="#" >Lớp học phần đã đăng ký</a></li> -->
+				<a href="/layout_Index/index_schedule.html"><li class="list">Lịch trình học tập</li></a>
+				<!-- <li class="list"><a href="#" >Lịch trình học tập</a></li> -->
+				<li class="list"><a href="#" >Lịch thi kết thúc học phần</a></li>
+				<li class="list_none list">Hỗ trợ - Tra cứu thông tin</li>
+				<li class="list"><a href="#" >Chương trình đào tạo</a></li>
+				<li class="list_none list">Số liệu - Tổng hợp</li>
+				<li class="list"><a href="#" >Lịch sử quá trình học tập</a></li>
+				<li class="list"><a href="#" >Kết quả học tập</a></li>
+				<li class="list"><a href="#" >Kết quả rèn luyện</a></li>
+				<li class="list_none list">Đảm bảo chất lượng giáo dục</li>
+				<li class="list ntn col"><a href="#" >Khảo sát hoạt động giảng dạy</a></li>
+			</ul>
+		
+		</div>
+		<div id="showMenuLeft" class="banner_navbar" onclick="ShowLeft()">
+			<a>
+				Học phí - Lệ phí
+				<i class="banner_icons fas fa-caret-down"></i>
+			</a>
+			<!-- List menu -->
+			
+			<ul class="list_menu right" id="listIdLeft">
+				<li class="list"><a href="#">Nộp học phí trực tuyến</a></li>
+				<li class="list col"><a href="#">Tra cứu lịch sử nộp học phí</a></li>
+			</ul>
+			
+		</div>
+	</div>
+
+	<!-- Body -->
+	<div id="container">
+		<div class="head">
+			<ul class="head-ul">
+				<li class="head_banner"><a href="#" title="Nhấp vào đây để thay đổi ngành học và học kỳ tác nghiệp">
+					<i class="head_icon fas fa-graduation-cap"></i>
+					Khoá 41 (2017-2021)
+				</a></li>
+				<li class="head_banner"><a href="#" title="Nhấp vào đây để thay đổi ngành học và học kỳ tác nghiệp">
+					<i class="head_icon fas fa-book"></i>
+					CÔNG NGHỆ THÔNG TIN</a></li>
+				<li class="head_banner"><a href="#" title="Nhấp vào đây để thay đổi ngành học và học kỳ tác nghiệp">
+					<i class="head_icon fas fa-calendar-alt"></i>
+					Học kỳ: 2, năm học: 2019-2020</a></li>
+			</ul>
+		</div>
+
+		<!-- side bar -->
+		<div class="body_left">
+			<div class="body_left-function">
+				<ul>
+					<li class="body_left-function-element"><h5>Lê Xuân Việt</h5></li>
+					<li class="body_left-function-element  space_top">
+						<img src="../img/icons/people.png" alt="">
+						<a class="menu-hover" href="#">Lý lịch cá nhân</a>
+					</li>
+					<li class="body_left-function-element">
+						<img src="../img/icons/key.png" alt="">
+						<a class="menu-hover" href="#">Đổi mật khẩu</a>
+					</li>
+					<li class="body_left-function-element space_bottom">
+						<img src="../img/icons/logout.png" alt="">
+						<a class="menu-hover" href="#">Đăng xuất</a>
+					</li>
+					<li class="body_left-function-element"><h5>CÁC CHỨC NĂNG CHUNG</h5></li>
+					<li class="body_left-function-element  space_top">
+						<img src="../img/icons/book.png" alt="">
+						<a class="menu-hover" href="#">Tin tức - Thông báo</a>
+					</li>
+					<li class="body_left-function-element">
+						<img src="../img/icons/calendar.png" alt="">
+						<a class="menu-hover" href="#">Thời khoá biểu học tập</a>
+					</li>
+					<li class="body_left-function-element">
+						<img src="../img/icons/message.png" alt="">
+						<a class="menu-hover" href="#">Tin nhắn</a>
+					</li>
+					<li class="body_left-function-element space_bottom">
+						<img src="../img/icons/Mail_Icon.png" alt="">
+						<a class="menu-hover" href="#">Thư điện tử</a>
+						<img src="../img/icons/new.gif" alt="">
+					</li>
+				</ul>
+			</div>
+			<div class="body_left-notify">
+				<ul>
+					<li class="body_left-notify-element"><h5>TIN TỨC - THÔNG BÁO</h5></li>
+					<li class="body_left-notify-element active">
+						<i class="icon_right fas fa-angle-double-right"></i>							
+						<a class="menu-hover" href="#">Thông báo về việc tiếp tục tổ chức đào tạo theo hình thức trực tuyến
+							<small>(24/03/2020)</small>
+						</a>
+					</li>
+					<li class="body_left-notify-element">
+						<i class="icon_right fas fa-angle-double-right"></i>
+						<a class="menu-hover" href="#">Thông báo tiếp tục giảng dạy và học tập trực tuyến
+							<small>(23/03/2020)</small>
+						</a>
+					</li>
+					<li class="body_left-notify-element">
+						<i class="icon_right fas fa-angle-double-right"></i>	
+						<a class="menu-hover" href="#">Thông báo về việc tổ chức đào tạo theo hình thức trực tuyến
+							<small>(17/03/2020)</small>
+						</a>
+					</li>
+					<li class="body_left-notify-element">
+						<i class="icon_right fas fa-angle-double-right"></i>
+						<a class="menu-hover" href="#">Thông báo về việc quản lý thông tin sinh viên NGOẠI TỈNH
+							<small>(09/03/2020)</small>
+						</a>
+					</li>
+					<li class="body_left-notify-element">
+						<i class="icon_right fas fa-angle-double-right"></i>
+						<a class="menu-hover" href="#">Thông báo về việc đăng ký khoá học đào tạo khởi nghiệp online của Vintech City
+							<small>(06/03/2020)</small>
+						</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="body_right">
+			<div class="body_right-head">
+				<h2>DANH SÁCH LỚP HỌC PHẦN ĐÃ ĐĂNG KÝ HỌC</h2>
+			</div>
+			<div class="brc_content">
+				<div class="brc_content-header" style="margin-right: 10px;">
+					<a href="index_registration.html">Chọn học phần để đăng ký học</a>
+				</div>
+				
+				<div class="brc_content-body">
+					<div class="brc_content-body_tabs-1" style="border: none;">
+						<table >
+							<tr class="brc_content-body_table-head">
+								<th class="brc_content-table-head_col-1">STT</th>
+								<th class="brc_content-table-head_col-2 text-left">Lớp học phần</th>
+								<th class="brc_content-table-head_col-3">Số<br>TC</th>
+								<th class="brc_content-table-head_col-4">Lần<br>học</th>
+								<th class="brc_content-table-head_col-5 text-left">Giảng viên</th>
+								<th class="brc_content-table-head_col-6 text-left">Thời khóa biểu <br>(tuần đầu tiên)</th>
+								<th class="brc_content-table-head_col-7">Ngày bắt đầu</th>
+								<th class="brc_content-table-head_col-8">Học phí</th>
+							</tr>
+					
+							<tr>
+								<th class="text-left" colspan="8" style=" padding-left: 10px;"><b>Lớp học phần đã được duyệt</b></th>
+							</tr>
+							<tr style="vertical-align: initial;">
+								<th class="text-center">1</th>
+								<th class="text-left"><a href="#">Kiến trúc máy tính - Nhóm 4 </a><br><small style="color:black;">2019-2020.2.TIN2013.004</small></th>
+								<th class="text-center">3</th>
+								<th class="text-center">2</th>
+								<th class="text-left">Đặng Xuân Vinh</th>
+								<th class="text-left">Thứ 3[6-8,E401]</th>
+								<th class="text-center">03/03/2020</th>
+								<th class="text-center">1,050,000</th>
+							</tr>
+							<tr style="vertical-align: initial;">
+								<th class="text-center">2</th>
+								<th class="text-left"><a href="#">Nguyên lý hệ điều hành - Nhóm 3 </a><br><small style="color:black;">2019-2020.2.TIN3042.003</small></th>
+								<th class="text-center">2</th>
+								<th class="text-center">1</th>
+								<th class="text-left">Nguyễn Quang Hưng</th>
+								<th class="text-left">Thứ 6[7-8,E403]</th>
+								<th class="text-center">06/03/2020</th>
+								<th class="text-center">700,000</th>
+							</tr>
+							<tr style="vertical-align: initial;">
+								<th class="text-center">3</th>
+								<th class="text-left"><a href="#">Kỹ nghệ phần mềm - Nhóm 3 </a><br><small style="color:black;">2019-2020.2.TIN3043.003</small></th>
+								<th class="text-center">3</th>
+								<th class="text-center">1</th>
+								<th class="text-left">Lê Văn Tường Lân</th>
+								<th class="text-left">Thứ 4[6-8,Lab 5_CNTT]</th>
+								<th class="text-center">04/03/2020</th>
+								<th class="text-center">1,050,000</th>
+							</tr>
+							<tr style="vertical-align: initial;">
+								<th class="text-center">4</th>
+								<th class="text-left"><a href="#">Phân tích và thiết kế các hệ thống thông tin - Nhóm 1 </a><br><small style="color:black;">2019-2020.2.TIN3093.001</small></th>
+								<th class="text-center">3</th>
+								<th class="text-center">2</th>
+								<th class="text-left">Nguyễn Văn Trung</th>
+								<th class="text-left">Thứ 2 [6-8, Lab 2_CNTT]</th>
+								<th class="text-center">02/03/2020</th>
+								<th class="text-center">1,050,000</th>
+							</tr>
+							<tr style="vertical-align: initial;">
+								<th class="text-center">5</th>
+								<th class="text-left"><a href="#">Nhập môn trí tuệ nhân tạo - Nhóm 2 </a><br><small style="color:black;">2019-2020.2.TIN3113.002</small></th>
+								<th class="text-center">3</th>
+								<th class="text-center">1</th>
+								<th class="text-left">Trần Thanh Lương</th>
+								<th class="text-left">Thứ 4 [1-3, E302]</th>
+								<th class="text-center">25/03/2020</th>
+								<th class="text-center">1,050,000</th>
+							</tr>
+							<tr style="vertical-align: initial;">
+								<th class="text-center">6</th>
+								<th class="text-left"><a href="#">Mạng máy tính - Nhóm 2</a><br><small style="color:black;">2019-2020.2.TIN3123.002</small></th>
+								<th class="text-center">3</th>
+								<th class="text-center">1</th>
+								<th class="text-left">Nguyễn Ngọc Thủy</th>
+								<th class="text-left">Thứ 5 [6-8, E403]</th>
+								<th class="text-center">05/03/2020</th>
+								<th class="text-center">1,050,000</th>
+							</tr>
+							<tr style="vertical-align: initial;">
+								<th class="text-center">7</th>
+								<th class="text-left"><a href="#">Thực tập viết niên luận - Nhóm 7</a><br><small style="color:black;">2019-2020.2.TIN3142.007</small></th>
+								<th class="text-center">2</th>
+								<th class="text-center">1</th>
+								<th class="text-left">Nguyễn Hoàng Hà</th>
+								<th class="text-left">Chủ nhật [1-1, ???]	</th>
+								<th class="text-center">21/06/2020</th>
+								<th class="text-center">700,000	</th>
+							</tr>
+							<tr>
+								<th colspan="8" style="height: 20px; background-color: #fff; border-top: 1px solid #fff;" ></th>
+							</tr>
+
+						</table>
+						
+					</div>
+				</div>
+				<div class="brc_content-body_tabs_bottom">
+					<div class="brc_content-body_tabs_bottom-table">
+						<table>
+							<tr style="background-color: #fff; border: none;">
+								<td>- Số lớp đã đăng ký: <b>7</b> </td>
+								<td>- Số lớp đã được duyệt: <b>7</b></td>
+							</tr>
+							<tr style="background-color: #fff; border: none;">
+								<td>- Tổng số tín chỉ đã đăng ký: <b>19</b></td>
+								<td>- Tổng số tín chỉ đã được duyệt: <b>19</b></td>
+							</tr>
+							<tr style="background-color: #fff; border: none;">
+								<td>- Tổng số tiền học phí theo lớp đăng ký: <b>6,650,000</b></td>
+								<td>- Tổng số tiền học phí theo lớp đã duyệt: <b>6,650,000</b></td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="brc_content-body_tabs_bottom-notify">
+						<b>Lưu ý:</b>
+						<ul style="margin: 0;">
+							<li>Số tiền học phí tạm tính ở thời điểm hiện tại, có thể thay đổi khi có qui định mức thu học phí chính thức của Nhà trường.</li>
+							<li>Sinh viên chỉ được phép hủy đăng ký những lớp học phần chưa được duyệt và do sinh viên tự đăng ký</li>
+						</ul>
+					</div>
+				</div>
+			</div> 
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="footer_content">
+			<p>Trường Đại học Khoa Học - Đại học Huế</p>
+			<p>Địa chỉ: 77 Nguyễn Huệ, Thành phố Huế, Thừa Thiên Huế, Việt Nam</p>
+			<p>Điện thoại: (+84) 0234.3823290 - Fax: (+84) 0234.3824901</p>
+			<p>Website: <a href="http://www.husc.edu.vn">http://www.husc.edu.vn</a></p>
+			<small>© Trần Nguyên Phong, Khoa Công Nghệ Thông Tin</small>
+		</div>
+	</footer>
+</body>
+<script type="text/javascript" src="../javascript/packed.js"></script>
+</html>
